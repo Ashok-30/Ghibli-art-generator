@@ -11,7 +11,7 @@ import org.springframework.web.multipart.MultipartFile;
 @RestController
 @RequestMapping("/api/v1")
 
-@CrossOrigin(origins={"http://localhost:5173","http://127.0.0.1:5173"})
+@CrossOrigin(origins = "https://your-frontend-domain.onrender.com")
 @RequiredArgsConstructor
 public class GenerationController {
 
